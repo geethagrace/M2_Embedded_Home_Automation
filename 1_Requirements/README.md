@@ -1,6 +1,6 @@
-# Introduction:
+# INTRODUCTION:
 Automation plays a vital role in today's world. Home automation will control home attributes such as lighting, temperature setting, control for motor, etc. Here inputs is given through USART which is considered as bluetooth. Lights are controlled by giving inputs through USART. By giving input to heater, it gets ON and will get OFF automatically using timer. Motor for water level is controlled by both switch and ultrasonic sensor.
-# Features:
+# FEATURES:
 1. Easy to control home appliances through USART communication.
 
 2. Advanced security and variety of user interfaces.
