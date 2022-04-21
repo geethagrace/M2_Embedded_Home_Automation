@@ -17,7 +17,7 @@ unsigned volatile overflow;
 //static volatile int pulse;
 //static volatile int i;
 
-
+// USART INITIALIZATION
 void USARTInit(uint16_t ubrr_value)
 {
     //Set Baud rate
@@ -29,6 +29,7 @@ void USARTInit(uint16_t ubrr_value)
     UCSR0B = (1<<RXEN0)|(1<<TXEN0)|(1<<RXCIE0)|(1<<TXCIE0);
 }
 
+// READS CHARACTER
 char USARTReadChar()
 {
     //Wait until data is available
@@ -39,6 +40,7 @@ char USARTReadChar()
     return UDR0;
 }
 
+//WRITES CHARACTER
 void USARTWriteChar(char data)
 {
     //wait until transmitter is ready
@@ -50,6 +52,7 @@ void USARTWriteChar(char data)
     UDR0 = data;
 }
 
+// PRINTS CHARACTER
 void USARTSendString(char *str)
 {
 	uint8_t j=0;
@@ -99,7 +102,7 @@ ISR(INT0_vect)
 
 }*/
 
- //timer for 15mins
+// TIMER FOR 15MINS
 void user_delay()
 {
     TCCR1B |= (1<<CS10);
