@@ -4,3 +4,6 @@ Automation plays a vital role in today's world. Home automation will control hom
 
 ## CODE QUALITY
 CODACY [![Codacy Badge](https://app.codacy.com/project/badge/Grade/2fb80058c2404115baf78a482e025513)](https://www.codacy.com/gh/geethagrace/M2_Embedded_Home_Automation/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=geethagrace/M2_Embedded_Home_Automation&amp;utm_campaign=Badge_Grade)
+
+## WORKFLOW
+[![Analysis](https://github.com/geethagrace/M2_Embedded_Home_Automation/actions/workflows/analysis.yml/badge.svg)](https://github.com/geethagrace/M2_Embedded_Home_Automation/actions/workflows/analysis.yml)
